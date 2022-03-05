@@ -1,0 +1,7 @@
+div {
+   background-color: orange;
+   width: 200px;
+   height: 200px;
+   padding: 20px; /* Margen interno respecto al elemento */
+   margin: 20px; /* Margen externo respecto a la página*/
+}

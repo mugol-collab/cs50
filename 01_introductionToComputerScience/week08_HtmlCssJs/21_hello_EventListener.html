@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="initial-scale=1, width=device-width" />
+      <title>helloJS</title>
+   </head>
+   <body>
+      <form>
+         <input
+            autocomplete="off"
+            autofocus
+            id="name"
+            placeholder="Name"
+            type="text"
+         />
+         <input type="submit" />
+      </form>
+
+      <script>
+         function greet() {
+            let name = document.querySelector('#name').value
+            alert('hello, ' + name)
+         }
+         document.querySelector('form').addEventListener('submit', greet)
+      </script>
+   </body>
+</html>
